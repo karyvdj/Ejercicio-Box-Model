@@ -88,7 +88,7 @@ a:hover {
   float: right;
 }
 #home{
-  background-image: url(assets/img/bg-home.jpg);
+  background-image: url(../img/bg-home.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,4 +128,26 @@ a:hover {
 .text-services{
   font-size: 35px;
   letter-spacing: 2px;
+}
+#work{
+  text-align: center;
+  padding: 70px 7px;
+}
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.work-img{
+  margin-top: 63px;
+}
+.box-work{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background: #2B3744;
 }
