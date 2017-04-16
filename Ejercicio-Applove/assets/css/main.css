@@ -143,6 +143,7 @@ a:hover {
 .box-work{
   display: inline-block;
   width: 30%;
+  margin-left: 20px;
   margin-top: 63px;
 }
 footer{
