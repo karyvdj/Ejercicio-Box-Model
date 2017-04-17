@@ -1,13 +1,16 @@
 // alert("hola");
 var modal = document.getElementById('miModal');
-var img = document.getElementById('01');
-var modalImg = document.getElementById("img01");
+var img = document.getElementsByClassName('img');
+var imgProducto = document.getElementById("img01");
+
+for(i=0; i< img.length; i++){
+  img[i].addEventListener("click", popUp);
+}
 
 function popUp(){
     modal.style.display = "block";
-    modalImg.src = this.src;
+    imgProducto.src = this.src;
 }
-img.addEventListener("click", popUp);
 
 var borrar = document.getElementsByClassName("cerrar")[0];
 
